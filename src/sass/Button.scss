@@ -1,0 +1,14 @@
+.button{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-color: #727171;
+   border-radius: 8px;
+   font-size: 24px;
+   color: white;
+   cursor: pointer;
+
+   &:active{
+      background-color: rgb(255, 255, 0) !important;
+   }
+}
